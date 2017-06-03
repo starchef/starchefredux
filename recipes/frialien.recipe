@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 1 },
+	{ "item" : "buttersc", "count" : 1 },
+	{ "item" : "wheat", "count" : 1 }
+
+  ],
+  "output" : { "item" : "frialien", "count" : 1 },
+"groups" : [ "campfire", "consumables", "all" ]
+}

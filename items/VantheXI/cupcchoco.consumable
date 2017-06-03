@@ -1,0 +1,29 @@
+{
+  "itemName" : "cupcchoco",
+  "rarity" : "common",
+  "price" : 155,
+  "category" : "food",
+  "inventoryIcon" : "cupcchoco.png",
+  "description" : "A mousse-frosted Chocolate cupcake.",
+  "shortdescription" : "Chocolate Cupcake",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 100
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 85,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+
+}
+

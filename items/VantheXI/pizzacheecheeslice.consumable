@@ -1,0 +1,32 @@
+{
+  "itemName" : "pizzacheecheeslice",
+  "rarity" : "rare",
+  "price" : 180,
+  "category" : "food",
+  "description" : "You can't go wrong with the simple combination of tomatoes and melted cheese.",
+  "inventoryIcon" : "pizzacheecheeslice.png",
+  "shortdescription" : "Cheese Pizza Slice",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 150
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 100
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 160,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+}
+

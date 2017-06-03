@@ -1,0 +1,11 @@
+{
+  "itemName" : "buttersc",
+  "rarity" : "uncommon",
+  "price" : 60,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "buttersc.png",
+  "description" : "A sticka buttah.",
+  "shortdescription" : "Butter",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "toastbuttered","cookiesugar" ]
+}

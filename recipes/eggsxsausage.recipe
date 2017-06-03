@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "eggsxscrambled", "count" : 1 },
+	{ "item" : "sausageraw", "count" : 2 }
+
+  ],
+  "output" : { "item" : "eggsxsausage", "count" : 1 },
+"groups" : [ "craftingfood", "mains" ]
+}

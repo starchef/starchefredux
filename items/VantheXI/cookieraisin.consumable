@@ -1,0 +1,25 @@
+{
+  "itemName" : "cookieraisin",
+  "rarity" : "legendary",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "cookieraisin.png",
+  "description" : "Not particularly healthy or particularly good. What's the point of this cookie? Or life.",
+  "shortdescription" : "Whole Wheat Raisin Cookie",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 230
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 75
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

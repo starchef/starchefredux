@@ -1,0 +1,28 @@
+{
+  "itemName" : "frialien",
+  "rarity" : "uncommon",
+  "price" : 100,
+  "category" : "food",
+  "inventoryIcon" : "frialien.png",
+  "description" : "A big slab of alien meat dredged through flour and fried. A bit greasy but still delicious.",
+  "shortdescription" : "Fried Alien Meat",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 230
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 7
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

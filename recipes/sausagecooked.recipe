@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "sausageraw", "count" : 1 }
+
+  ],
+  "output" : { "item" : "sausagecooked", "count" : 1 },
+"groups" : [ "campfire", "consumables", "all" ]
+}

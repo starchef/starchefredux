@@ -1,0 +1,36 @@
+{
+  "itemName" : "icecreamjava",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "food",
+  "inventoryIcon" : "icecreamjava.png",
+  "description" : "Ice cream with a jolt of espresso.",
+  "shortdescription" : "Coffee Ice Cream",
+"handPosition" : [5, -7],
+  "effects" : [ [
+	{
+        "effect" : "healingwater",
+        "duration" : 50
+    },
+	{
+        "effect" : "runboost20",
+        "duration" : 80
+    },
+	{
+        "effect" : "fireblock",
+        "duration" : 130
+    },
+ 	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+}
+

@@ -1,0 +1,32 @@
+{
+  "itemName" : "bbqtenta",
+  "rarity" : "Common",
+  "price" : 95,
+  "category" : "food",
+  "inventoryIcon" : "bbqtenta.png",
+  "description" : "The smoky sauce hides the flavor of this tentacle. No concealing the shape though.",
+  "shortdescription" : "BBQ Tentacle",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 200
+    },
+	{
+        "effect" : "rage",
+        "duration" : 160
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+}
+

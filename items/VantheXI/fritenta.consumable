@@ -1,0 +1,28 @@
+{
+  "itemName" : "fritenta",
+  "rarity" : "legendary",
+  "price" : 100,
+  "category" : "food",
+  "inventoryIcon" : "fritenta.png",
+  "description" : "The tentacle of some tentacled horror, battered and fried. Basically calamari rings at this point.",
+  "shortdescription" : "Fried Tentacle",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 250
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 6
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

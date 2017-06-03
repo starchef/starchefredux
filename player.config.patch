@@ -1,0 +1,68 @@
+[
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "toastplain" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "eggsxscrambled" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "cupcvani" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "meatchunkssc" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "parfaitbanan" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "parfaitmingo" }
+  },
+  
+   {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "fireroastedfruit" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "raisinssc" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "bbqchickn" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "bbqalien" }
+  },
+  
+  {
+    "op":"add",
+    "path":"/defaultBlueprints/tier1/-",
+    "value":{ "item" : "frialien" }
+  }
+
+]

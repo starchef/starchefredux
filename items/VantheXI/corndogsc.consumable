@@ -1,0 +1,29 @@
+{
+  "itemName" : "corndogsc",
+  "rarity" : "Common",
+  "price" : 130,
+  "category" : "food",
+  "inventoryIcon" : "corndogsc.png",
+  "description" : "Food on a stick. Primitive, but delicious.",
+  "shortdescription" : "Corndog",
+"handPosition" : [5, -7],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 250
+		
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 99,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

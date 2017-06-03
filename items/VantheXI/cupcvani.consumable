@@ -1,0 +1,30 @@
+{
+  "itemName" : "cupcvani",
+  "rarity" : "common",
+  "price" : 150,
+  "category" : "food",
+  "inventoryIcon" : "cupcvani.png",
+  "description" : "A plain and inoffensive vanilla cupcake. Rather boring.",
+  "shortdescription" : "Vanilla Cupcake",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 180
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+   "learnBlueprintsOnPickup" : [ "cupcpink", "cupcblue", "cupcchoco", "cupcyellow" ]
+
+}
+

@@ -1,0 +1,32 @@
+{
+  "itemName" : "pizzasosgslice",
+  "rarity" : "rare",
+  "price" : 180,
+  "category" : "food",
+  "description" : "Alien sausage isn't just for breakfast anymore.",
+  "inventoryIcon" : "pizzasosgslice.png",
+  "shortdescription" : "Sausage Pizza Slice",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "rage",
+        "duration" : 150
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 100
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 160,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+}
+

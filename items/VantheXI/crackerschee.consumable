@@ -1,0 +1,32 @@
+{
+  "itemName" : "crackerschee",
+  "rarity" : "common",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "crackerschee.png",
+  "description" : "Possibly humanity's favorite snack food.",
+  "shortdescription" : "Cheese Crackers",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 85
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 50
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

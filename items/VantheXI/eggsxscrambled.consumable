@@ -1,0 +1,34 @@
+{
+  "itemName" : "eggsxscrambled",
+  "rarity" : "uncommon",
+  "price" : 350,
+  "category" : "food",
+  "inventoryIcon" : "eggsxscrambled.png",
+  "description" : "A plateful of fluffy, cheesy scrambled eggs.",
+  "shortdescription" : "Scrambled Eggs",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 180
+    },
+	{
+		"effect" : "jumpboost",
+		"duration" : 100
+	},
+ 	{
+        "effect" : "wellfed",
+        "duration" : 7
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 200,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+     "learnBlueprintsOnPickup" : [ "eggsxsausage", "eggsxbacon" ] 
+
+}
+

@@ -1,0 +1,32 @@
+{
+  "itemName" : "toastneonjam",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "toastneonjam.png",
+  "description" : "How twisted do you have to be to spread this bubblegum flavored stuff on bread?",
+  "shortdescription" : "Neonmelon Jam Toast",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+        "effect" : "redstim",
+        "duration" : 40
+	},
+	{
+        "effect" : "xenonglow",
+        "duration" : 120
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

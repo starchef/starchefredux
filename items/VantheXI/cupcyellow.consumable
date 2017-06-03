@@ -1,0 +1,33 @@
+{
+  "itemName" : "cupcyellow",
+  "rarity" : "rare",
+  "price" : 200,
+  "category" : "food",
+  "inventoryIcon" : "cupcyellow.png",
+  "description" : "A mallow frosted cupcake. Apparently this is Yellow Flavor, whatever that means.",
+  "shortdescription" : "Yellow Cupcake",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "coloryellow",
+        "duration" : 80
+    },
+    {
+        "effect" : "glow",
+        "duration" : 100
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 150,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+
+}
+

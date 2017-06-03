@@ -1,0 +1,28 @@
+{
+  "itemName" : "doughnutboscream",
+  "rarity" : "uncommon",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "doughnutboscream.png",
+  "description" : "A doughnut filled with tasty 'Boston Cream', whatever a Boston is.",
+  "shortdescription" : "Boston Cream Doughnut",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 100
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

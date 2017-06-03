@@ -1,0 +1,32 @@
+{
+  "itemName" : "crackersgraham",
+  "rarity" : "uncommon",
+  "price" : 140,
+  "category" : "food",
+  "inventoryIcon" : "crackersgraham.png",
+  "description" : "Half cracker, half cookie, 100% disappointment.",
+  "shortdescription" : "Graham Crackers",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 55
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+}
+

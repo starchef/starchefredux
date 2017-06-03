@@ -1,0 +1,29 @@
+{
+  "itemName" : "hotdogsc",
+  "rarity" : "rare",
+  "price" : 130,
+  "category" : "food",
+  "inventoryIcon" : "hotdogsc.png",
+  "description" : "As much as a ballpark classic as being hit in the face with balls.. lol, balls, lol, weiners.",
+  "shortdescription" : "Hotdog",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 120
+		
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 99,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

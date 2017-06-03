@@ -1,0 +1,27 @@
+{
+  "itemName" : "eggnogsc",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "preparedFood",
+  "inventoryIcon" : "eggnogsc.png",
+  "description" : "Not even the freshest alien eggs can redeem this drink.",
+  "shortdescription" : "Eggnog",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 80
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}

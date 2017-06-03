@@ -1,0 +1,37 @@
+{
+  "itemName" : "cupcblue",
+  "rarity" : "rare",
+  "price" : 200,
+  "category" : "food",
+  "inventoryIcon" : "cupcblue.png",
+  "description" : "A mallow frosted cupcake. Apparently this is Blue Flavor, whatever that means.",
+  "shortdescription" : "Blue Cupcake",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 158
+    },
+    {
+        "effect" : "colorblue",
+        "duration" : 80
+    },
+    {
+        "effect" : "lowgrav",
+        "duration" : 80
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 150,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+
+}
+

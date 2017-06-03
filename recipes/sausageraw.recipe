@@ -1,0 +1,8 @@
+{
+  "input" : [
+	{ "item" : "meatchunkssc", "count" : 2 }
+
+  ],
+  "output" : { "item" : "sausageraw", "count" : 1 },
+"groups" : [ "plain", "all", "other" ]
+}

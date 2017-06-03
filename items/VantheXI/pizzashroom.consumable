@@ -1,0 +1,33 @@
+{
+  "itemName" : "pizzashroom",
+  "rarity" : "common",
+  "price" : 500,
+  "category" : "food",
+  "description" : "This pizza tastes meagical despite the shrooms being perfectly mundane.",
+  "inventoryIcon" : "pizzashroom.png",
+  "shortdescription" : "Mushroom Pizza",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 800
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 500
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 10
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 450,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+    "learnBlueprintsOnPickup" : [ "pizzashroomslice" ]
+}
+

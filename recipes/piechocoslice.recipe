@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "piechoco", "count" : 1 }
+  ],
+  "output" : { "item" : "piechocoslice", "count" : 8 },
+"groups" : [ "plain", "all", "other" ]
+}

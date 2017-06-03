@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crackersgraham", "count" : 4 },
+	{ "item" : "sugar", "count" : 1 },
+	{ "item" : "creamcarton", "count" : 3 }
+	
+  ],
+  "output" : { "item" : "piecreme", "count" : 1 },
+"groups" : [ "craftingfood", "desserts" ]
+}

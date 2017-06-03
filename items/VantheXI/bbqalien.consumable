@@ -1,0 +1,33 @@
+{
+  "itemName" : "bbqalien",
+  "rarity" : "Common",
+  "price" : 90,
+  "category" : "food",
+  "inventoryIcon" : "bbqalien.png",
+  "description" : "A cut of alien meat marinated in a sticky, smoky sauce and cooked over open flame.",
+  "shortdescription" : "BBQ Alien Meat",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 350
+    },
+	{
+        "effect" : "rage",
+        "duration" : 200
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 3
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 75,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+
+}
+

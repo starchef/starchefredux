@@ -1,0 +1,31 @@
+{
+  "itemName" : "piecreme",
+  "price" : 10,
+  "rarity" : "Common",
+  "category" : "food",
+  "inventoryIcon" : "piecreme.png",
+  "image" : "piecreme.png",
+  "shortdescription" : "Whipped Cream Pie",
+  "description" : "The fun derived from throwing it is better than the taste.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "piecreme",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 2,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  },
+  "learnBlueprintsOnPickup" : [ "piecremeslice", "piechoco" ]
+}

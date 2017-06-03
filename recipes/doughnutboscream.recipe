@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "creamcarton", "count" : 2 },
+	{ "item" : "egg", "count" : 1 },
+	{ "item" : "sugar", "count" : 1 },
+	{ "item" : "wheat", "count" : 1 },
+	{ "item" : "chocolate", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "doughnutboscream", "count" : 1 },
+"groups" : [ "craftingfood", "snacks" ]
+}

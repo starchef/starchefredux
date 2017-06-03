@@ -1,0 +1,28 @@
+{
+  "itemName" : "toastbuttered",
+  "rarity" : "Common",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "toastbuttered.png",
+  "description" : "The most classic way to prepare toast. With a pat of melting butter.",
+  "shortdescription" : "Buttered Toast",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+        "effect" : "redstim",
+        "duration" : 30
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

@@ -1,0 +1,32 @@
+{
+  "itemName" : "meatballsbbq",
+  "rarity" : "uncommon",
+  "price" : 150,
+  "category" : "food",
+  "inventoryIcon" : "meatballsbbq.png",
+  "description" : "A sweet and spicy twist on meatballs.",
+  "shortdescription" : "BBQ Meatballs",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 150
+    },
+	{
+        "effect" : "nova",
+        "duration" : 100
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 6
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 120,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

@@ -1,0 +1,28 @@
+{
+  "itemName" : "toastkiwijam",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "toastkiwijam.png",
+  "description" : "Toast spread with floral kiwi jam.",
+  "shortdescription" : "Kiwi Jam Toast",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+        "effect" : "redstim",
+        "duration" : 40
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

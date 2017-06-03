@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "toastplain", "count" : 1 },
+	{ "item" : "buttersc", "count" : 1 }
+  ],
+  "output" : { "item" : "toastbuttered", "count" : 1 },
+"groups" : [ "campfire", "consumables", "all"]
+}

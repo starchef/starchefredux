@@ -1,0 +1,32 @@
+{
+  "itemName" : "icecreamchoco",
+  "rarity" : "Common",
+  "price" : 90,
+  "category" : "food",
+  "inventoryIcon" : "icecreamchoco.png",
+  "description" : "They say chocolate flavoring hides everything...",
+  "shortdescription" : "Chocolate Ice Cream",
+"handPosition" : [5, -7],
+  "effects" : [ [
+    {
+        "effect" : "healingwater",
+        "duration" : 50
+    },
+	{
+        "effect" : "fireblock",
+        "duration" : 150
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 53,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+}
+

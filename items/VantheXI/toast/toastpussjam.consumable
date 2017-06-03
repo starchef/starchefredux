@@ -1,0 +1,29 @@
+{
+  "itemName" : "toastpussjam",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "toastpussjam.png",
+  "description" : "Another use for Pussplum Jam. Suck it Chucklefish! Though yeah, it doesn't taste great alone.",
+  "shortdescription" : "Pussplum Jam Toast",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+	
+        "effect" : "redstim",
+        "duration" : 40
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

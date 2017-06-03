@@ -1,0 +1,33 @@
+{
+  "itemName" : "bbqchickn",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "bbqchickn.png",
+  "description" : "Hm, Tastes like chicke- oh. Wait.",
+  "shortdescription" : "BBQ Poultry",
+"handPosition" : [5, -7],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 300
+    },
+	{
+        "effect" : "rage",
+        "duration" : 6
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 75,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+
+}
+

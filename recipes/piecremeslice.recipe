@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "piecreme", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "piecremeslice", "count" : 8 },
+"groups" : [ "plain", "all", "other" ]
+}

@@ -1,0 +1,33 @@
+{
+  "itemName" : "icecreamvani",
+  "rarity" : "Common",
+  "price" : 85,
+  "category" : "food",
+  "inventoryIcon" : "icecreamvani.png",
+  "description" : "Plain, vanilla ice cream for boring people and toppings.",
+  "shortdescription" : "Vanilla Ice Cream",
+"handPosition" : [5, -7],
+  "effects" : [ [
+    {
+        "effect" : "healingwater",
+        "duration" : 50
+    },
+	{
+        "effect" : "fireblock",
+        "duration" : 130
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 50,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "icecreamjava", "icecreamchoco" ]
+}
+

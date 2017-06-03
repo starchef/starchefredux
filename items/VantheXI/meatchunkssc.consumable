@@ -1,0 +1,23 @@
+{
+  "itemName" : "meatchunkssc",
+  "rarity" : "Common",
+  "price" : 25,
+  "category" : "food",
+  "inventoryIcon" : "meatchunkssc.png",
+  "description" : "Chunks of raw, pulverized alien meat. Suitable for sausage making or meatballs.",
+  "shortdescription" : "Meat Chunks",
+  "effects" : [ [
+    {
+        "effect" : "foodpoison"
+    },
+	{
+        "effect" : "vomitleft",
+		"duration" : 3
+    }
+] ],
+ "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "sausageraw", "meatballssc" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "sugar", "count" : 3 },
+	{ "item" : "bone", "count" : 2 }
+	
+  ],
+  "output" : { "item" : "marshmallowssc", "count" : 3 },
+"groups" : [ "craftingfood", "snacks" ]
+}

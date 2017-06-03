@@ -1,0 +1,37 @@
+{
+  "itemName" : "toastalienjam",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "toastalienjam.png",
+  "description" : "Toast with globs of alienfruit jam. It's sticky, sweet and alien to all the senses.",
+  "shortdescription" : "Alien Fruit Jam Toast",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+	
+        "effect" : "redstim",
+        "duration" : 40
+	},
+	{
+        "effect" : "colorpurple",
+        "duration" : 75
+	},
+	{
+        "effect" : "antidote",
+        "duration" : 75
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

@@ -1,0 +1,33 @@
+{
+  "itemName" : "eggsxbacon",
+  "rarity" : "rare",
+  "price" : 400,
+  "category" : "food",
+  "inventoryIcon" : "eggsxbacon.png",
+  "description" : "Wakey Wakey!",
+  "shortdescription" : "Eggs & Bacon",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 230
+    },
+	{
+		"effect" : "jumpboost",
+		"duration" : 100
+	},
+  	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 300,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+
+}
+

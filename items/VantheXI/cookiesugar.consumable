@@ -1,0 +1,27 @@
+{
+  "itemName" : "cookiesugar",
+  "rarity" : "uncommon",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "cookiesugar.png",
+  "description" : "A perfectly chewy cookie with cheerful frosting and sprinkles.",
+  "shortdescription" : "Sugar Cookie",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 200
+    },
+	
+	{
+        "effect" : "healingwater",
+        "duration" : 85
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "cookieraisin","cookiechocochip" ]
+}
+

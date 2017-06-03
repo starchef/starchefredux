@@ -1,0 +1,33 @@
+{
+  "itemName" : "eggsxsausage",
+  "rarity" : "legendary",
+  "price" : 450,
+  "category" : "food",
+  "inventoryIcon" : "eggsxsausage.png",
+  "description" : "Links of sausage and warm eggs. Makes you almost forget it's all from random alien species.",
+  "shortdescription" : "Eggs & Sausage",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 280
+    },
+	 {
+        "effect" : "healingwater",
+        "duration" : 80
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 8
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 350,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+
+}
+

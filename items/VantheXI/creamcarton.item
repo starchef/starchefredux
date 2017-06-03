@@ -1,0 +1,11 @@
+{
+  "itemName" : "creamcarton",
+  "rarity" : "uncommon",
+  "price" : 60,
+  "category" : "cookingIngredient",
+  "inventoryIcon" : "creamcarton.png",
+  "description" : "Mmmmm-mmmmm! Creamy!",
+  "shortdescription" : "Cream",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : ["buttersc", "piecreme"]
+}

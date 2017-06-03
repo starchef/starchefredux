@@ -1,0 +1,10 @@
+{
+  "input" : [
+	{ "item" : "sausagecooked", "count" : 1 },
+	{ "item" : "bread", "count" : 2 },
+	{ "item" : "relish", "count" : 1 }
+
+  ],
+  "output" : { "item" : "hotdogsc", "count" : 1 },
+"groups" : [ "craftingfood", "mains" ]
+}

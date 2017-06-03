@@ -1,0 +1,29 @@
+{
+  "itemName" : "cookiechocochip",
+  "rarity" : "rare",
+  "price" : 75,
+  "category" : "food",
+  "inventoryIcon" : "cookiechocochip.png",
+  "description" : "Chocolate chip cookies. The chocolate bits are still warm and soft. Nostalgic.",
+  "shortdescription" : "Chocolate Chip Cookie",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "healingwater",
+        "duration" : 130
+    },
+	{
+        "effect" : "love",
+        "duration" : 1
+    },
+	{
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 200
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

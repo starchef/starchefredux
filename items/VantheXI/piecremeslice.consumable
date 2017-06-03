@@ -1,0 +1,25 @@
+{
+  "itemName" : "piecremeslice",
+  "rarity" : "Common",
+  "price" : 70,
+  "category" : "food",
+  "inventoryIcon" : "piecremeslice.png",
+  "description" : "A prefectly cut slice of whipped cream in a pie shell. How'd you manage this one?",
+  "shortdescription" : "Whipped Cream Pie Slice",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 75
+    },
+	{
+        "effect" : "lowgrav",
+        "duration" : 150
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

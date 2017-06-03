@@ -1,0 +1,33 @@
+{
+  "itemName" : "pizzasosg",
+  "rarity" : "common",
+  "price" : 500,
+  "category" : "food",
+  "description" : "Every pizza is a personal pizza if you try hard enough.",
+  "inventoryIcon" : "pizzasosg.png",
+  "shortdescription" : "Sausage Pizza",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "rage",
+        "duration" : 800
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 500
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 10
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 450,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+    "learnBlueprintsOnPickup" : [ "pizzasosgslice" ]
+}
+

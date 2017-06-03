@@ -1,0 +1,28 @@
+{
+  "itemName" : "piechocoslice",
+  "rarity" : "uncommon",
+  "price" : 100,
+  "category" : "food",
+  "inventoryIcon" : "piechocoslice.png",
+  "description" : "A silky smooth slice of French Silk Pie",
+  "shortdescription" : "French Silk Pie Slice",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 120
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 8
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

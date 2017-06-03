@@ -1,0 +1,32 @@
+{
+  "itemName" : "parfaitmingo",
+  "rarity" : "legendary",
+  "price" : 190,
+  "category" : "food",
+  "inventoryIcon" : "parfaitmingo.png",
+  "description" : "sliced avesmingo layered with vanilla wafers and whipped cream. Confuses the taste buds.",
+  "shortdescription" : "Avesmingo Parfait",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 340
+    },
+	{
+        "effect" : "swimboost",
+        "duration" : 280
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 6
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 120,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

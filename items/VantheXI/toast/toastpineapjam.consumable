@@ -1,0 +1,29 @@
+{
+  "itemName" : "toastpineapjam",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "toastpineapjam.png",
+  "description" : "Like you're sitting in the tropics.",
+  "shortdescription" : "Pineapple Jam Toast",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+	
+        "effect" : "redstim",
+        "duration" : 40
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

@@ -1,0 +1,33 @@
+{
+  "itemName" : "pizzacheechee",
+  "rarity" : "common",
+  "price" : 500,
+  "category" : "food",
+  "description" : "A lovely cheese pizza, just for me.",
+  "inventoryIcon" : "pizzacheechee.png",
+  "shortdescription" : "Cheese Pizza",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 800
+    },
+	{
+        "effect" : "healingwater",
+        "duration" : 500
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 10
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 450,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+    "learnBlueprintsOnPickup" : [ "pizzacheecheeslice" ]
+}
+

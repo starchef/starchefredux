@@ -1,0 +1,29 @@
+{
+  "itemName" : "fireroastedfruit",
+  "rarity" : "Common",
+  "price" : 100,
+  "category" : "food",
+  "inventoryIcon" : "fireroastedfruit.png",
+  "description" : "Island fruit skewered and seared over a campfire. Sad s'mores!",
+  "shortdescription" : "Tropical Skewer",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+	
+        "effect" : "healingwater",
+        "duration" : 70
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 3
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 80,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

@@ -1,0 +1,33 @@
+{
+  "itemName" : "marshmallowssc",
+  "rarity" : "uncommon",
+  "price" : 100,
+  "category" : "food",
+  "inventoryIcon" : "marshmallowssc.png",
+  "description" : "White! Fluffy! Addicting! You swear you dusted these with cornstarch!",
+  "shortdescription" : "Marshmallows",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "healingwater",
+        "duration" : 50
+    },
+	{
+        "effect" : "runboostfood",
+        "duration" : 90
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 85,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "smoresc" ]
+}
+

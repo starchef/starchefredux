@@ -1,0 +1,36 @@
+{
+  "itemName" : "cupcpink",
+  "rarity" : "rare",
+  "price" : 200,
+  "category" : "food",
+  "inventoryIcon" : "cupcpink.png",
+  "description" : "A mallow frosted cupcake. Apparently this is Pink Flavor, whatever that means.",
+  "shortdescription" : "Pink Cupcake",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "redstim",
+        "duration" : 50
+    },
+    {
+        "effect" : "colorred",
+        "duration" : 30
+    },
+    {
+        "effect" : "love",
+        "duration" : 30
+    },
+  	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 150,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000
+}
+

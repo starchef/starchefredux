@@ -1,0 +1,29 @@
+{
+  "itemName" : "piechoco",
+  "rarity" : "uncommon",
+  "price" : 300,
+  "category" : "food",
+  "inventoryIcon" : "piechoco.png",
+  "description" : "An entire French Silk pie, you greedy bastard you.",
+  "shortdescription" : "French Silk Pie",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 500
+    },
+	{
+        "effect" : "wellfed",
+        "duration" : 15
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 250,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 ,
+    "learnBlueprintsOnPickup" : [ "piechocoslice" ]
+}
+

@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "buttersc", "count" : 1 },
+	{ "item" : "sugar", "count" : 2 },
+	{ "item" : "wheat", "count" : 1 },
+	{ "item" : "egg", "count" : 1 },
+	{ "item" : "raisinssc", "count" : 2 }
+
+  ],
+  "output" : { "item" : "cookieraisin", "count" : 1 },
+"groups" : [ "craftingfood", "desserts" ]
+}

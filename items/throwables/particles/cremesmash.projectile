@@ -1,0 +1,15 @@
+{
+  "projectileName" : "cremesmash",
+  "image" : "cremesmash.png",
+  "animationCycle" : 0.9,
+  "frameNumber" : 8,
+  "speed" : 1,
+  "damagePoly" : [ [0, 0] ],
+  "animationLoops" : false,
+  "piercing" : false,
+  "flippable" : true,
+  "power" : 0,
+  "damageTeam" : { "type" : "indiscriminate" },
+  "damageKind" : "default",
+  "onlyHitTerrain" : false
+}

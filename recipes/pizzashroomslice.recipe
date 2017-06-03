@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "pizzashroom", "count" : 1 }
+  ],
+  "output" : { "item" : "pizzashroomslice", "count" : 8 },
+"groups" : [ "plain", "all", "other" ]
+}

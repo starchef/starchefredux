@@ -1,0 +1,11 @@
+{
+  "input" : [
+	{ "item" : "banana", "count" : 2 },
+	{ "item" : "wheat", "count" : 1 },
+	{ "item" : "creamcarton", "count" : 2 },
+	{ "item" : "sugar", "count" : 1 }
+
+  ],
+  "output" : { "item" : "parfaitbanan", "count" : 1 },
+"groups" : [ "craftingfood", "desserts" ]
+}

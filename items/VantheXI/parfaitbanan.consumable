@@ -1,0 +1,32 @@
+{
+  "itemName" : "parfaitbanan",
+  "rarity" : "rare",
+  "price" : 200,
+  "category" : "food",
+  "inventoryIcon" : "parfaitbanan.png",
+  "description" : "Bananas, vanilla wafers, and layers of whipped cream. Esentially much a personal cream pie.",
+  "shortdescription" : "Banana Parfait",
+"handPosition" : [0, -2],
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 150
+    },
+	{
+        "effect" : "swimboost",
+        "duration" : 150
+    },
+ 	{
+        "effect" : "wellfed",
+        "duration" : 5
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 130,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

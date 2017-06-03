@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "marshmallowssc", "count" : 1 },
+	{ "item" : "crackersgraham", "count" : 2 },
+	{ "item" : "chocolate", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "smoresc", "count" : 1 },
+"groups" : [ "campfire", "consumables", "all" ]
+}

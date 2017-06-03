@@ -1,0 +1,28 @@
+{
+  "itemName" : "toastbseedjam",
+  "rarity" : "Common",
+  "price" : 80,
+  "category" : "food",
+  "inventoryIcon" : "toastbseedjam.png",
+  "description" : "It took a vast amount of nostrils to make this jellied toast palatable.",
+  "shortdescription" : "Beakseed Jam Toast",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+        "effect" : "redstim",
+        "duration" : 40
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 2
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000 
+}
+

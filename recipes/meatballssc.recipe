@@ -1,0 +1,9 @@
+{
+  "input" : [
+	{ "item" : "meatchunkssc", "count" : 2 },
+	{ "item" : "wheat", "count" : 1 }
+
+  ],
+  "output" : { "item" : "meatballssc", "count" : 1 },
+"groups" : [ "campfire", "consumables", "all" ]
+}

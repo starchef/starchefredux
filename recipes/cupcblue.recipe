@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "creamcarton", "count" : 2 },
+	{ "item" : "buttersc", "count" : 1 },
+	{ "item" : "egg", "count" : 1 },
+	{ "item" : "sugar", "count" : 2 },
+	{ "item" : "wheat", "count" : 1 },
+	{ "item" : "petalblue", "count" : 1 }
+	
+  ],
+  "output" : { "item" : "cupcblue", "count" : 1 },
+"groups" : [ "craftingfood", "desserts" ]
+}

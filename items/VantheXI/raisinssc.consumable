@@ -1,0 +1,29 @@
+{
+  "itemName" : "raisinssc",
+  "rarity" : "Common",
+  "price" : 30,
+  "category" : "food",
+  "inventoryIcon" : "raisinssc.png",
+  "description" : "Simultaneously plump and dried. Paradoxical things, raisins.",
+  "shortdescription" : "Raisins",
+  "handPosition" : [-3, -4],
+  "effects" : [ [
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 20
+	},
+	{
+        "effect" : "wellfed",
+        "duration" : 1
+    }
+  ] ],
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "learnBlueprintsOnPickup" : [ "cookieraisin" ],
+  "maxStack" : 1000 
+}
+
