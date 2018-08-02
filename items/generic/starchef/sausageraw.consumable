@@ -1,28 +1,26 @@
 {
   "itemName" : "sausageraw",
   "rarity" : "Common",
-  "price" : 50,
+  "price" : 25,
   "category" : "food",
   "inventoryIcon" : "sausageraw.png",
   "description" : "Raw alien bits stuffed in a fresh length of gut. A recipe for food poisoning unless you cook it.",
   "shortdescription" : "Raw Sausage",
-"handPosition" : [-4, -2],
+  "foodValue" : 25,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
   "effects" : [ [
-    {
+      {
         "effect" : "foodpoison"
-    },
-	{
-        "effect" : "vomitright",
-        "duration" : 3
-    }
-  ] ],
+      }
+    ] ],
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.5,
   "blockingEffects" : [
     "wellfed"
   ],
-  "foodValue" : 35,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "learnBlueprintsOnPickup" : [ "sausagecooked" ],
-  "maxStack" : 1000
+  "learnBlueprintsOnPickup" : [ "sausagecooked" ]
 }
+
 

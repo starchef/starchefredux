@@ -1,0 +1,19 @@
+{
+  "itemName" : "sausagecooked",
+  "rarity" : "Common",
+  "price" : 30,
+  "category" : "food",
+  "inventoryIcon" : "sausagecooked.png",
+  "description" : "Gee, Bill! how come mom lets you have TWO weiners?!",
+  "shortdescription" : "Cooked Sausage",
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}
+
