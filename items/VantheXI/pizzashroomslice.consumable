@@ -5,7 +5,7 @@
   "category" : "food",
   "description" : "You can pretend you're eating an entire Agaran village! ..if you're into that thing.",
   "inventoryIcon" : "pizzashroomslice.png",
-  "shortdescription" : "Sausage Pizza Slice",
+  "shortdescription" : "Mushroom Pizza Slice",
 "handPosition" : [0, -2],
   "effects" : [ [
     {
