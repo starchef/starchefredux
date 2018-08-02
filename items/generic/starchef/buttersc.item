@@ -1,7 +1,7 @@
 {
   "itemName" : "buttersc",
-  "rarity" : "uncommon",
-  "price" : 60,
+  "rarity" : "common",
+  "price" : 30,
   "category" : "cookingIngredient",
   "inventoryIcon" : "buttersc.png",
   "description" : "A sticka buttah.",

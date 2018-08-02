@@ -1,7 +1,7 @@
 {
   "itemName" : "creamcarton",
-  "rarity" : "uncommon",
-  "price" : 60,
+  "rarity" : "common",
+  "price" : 50,
   "category" : "cookingIngredient",
   "inventoryIcon" : "creamcarton.png",
   "description" : "Mmmmm-mmmmm! Creamy!",

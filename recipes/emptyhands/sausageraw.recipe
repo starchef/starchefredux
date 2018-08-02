@@ -4,5 +4,5 @@
 
   ],
   "output" : { "item" : "sausageraw", "count" : 1 },
-"groups" : [ "plain", "all", "other" ]
+  "groups" : [ "plain", "all", "other" ]
 }

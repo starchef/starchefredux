@@ -1,34 +1,25 @@
 {
   "itemName" : "meatballssc",
   "rarity" : "Common",
-  "price" : 100,
+  "price" : 75,
   "category" : "food",
   "inventoryIcon" : "meatballssc.png",
   "description" : "Meatballs... balls of meat. Meaty balls..",
   "shortdescription" : "Meatballs",
-"handPosition" : [0, -2],
+  "handPosition" : [0, -2],
   "effects" : [ [
     {
         "effect" : "maxhealthscalingboostfood",
-        "duration" : 60
-		
-    },
-	{
-        "effect" : "rage",
-        "duration" : 100
-    },
-  	{
-        "effect" : "wellfed",
-        "duration" : 5
+        "duration" : 315
     }
   ] ],
-  "blockingEffects" : [
-    "wellfed"
-  ],
-  "foodValue" : 75,
+  "foodValue" : 30,
   "tooltipKind" : "food",
   "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1000,
-  "learnBlueprintsOnPickup" : [ "meatballsbbq" ] 
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
 }
-

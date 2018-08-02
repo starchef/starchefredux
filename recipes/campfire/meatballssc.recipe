@@ -5,5 +5,5 @@
 
   ],
   "output" : { "item" : "meatballssc", "count" : 1 },
-"groups" : [ "campfire", "consumables", "all" ]
+  "groups" : [ "campfire", "consumables", "all" ]
 }
