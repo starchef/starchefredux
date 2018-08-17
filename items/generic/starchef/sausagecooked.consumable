@@ -14,6 +14,7 @@
   "rottingMultiplier" : 0.5,
   "blockingEffects" : [
     "wellfed"
-  ]
+  ],
+  "learnBlueprintsOnPickup" : [ "corndogsc", "hotdogsc", "eggsxsausage", "pizzasosg" ] 
 }
 
